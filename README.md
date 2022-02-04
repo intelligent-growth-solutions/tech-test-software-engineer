@@ -4,7 +4,9 @@ One of the core functions of the IGS software is to automate the growing of plan
 The growing process happens in, what we call, a Tower. An IGS Tower has a number of trays, stacked vertically. Each tray is equipped with lights and has the ability to be watered.
 
 # Objective
-Given the list of recipe names, a start dates and a tray numbers outlined below, create an application that generates a JSON file with a schedule. The schedule should outline at exactly what time light and water commands should be sent to the Tower, and what light intensity or amount to water should be.
+Given the list of recipe names, start dates and tray numbers outlined below, create an application that queries the Recipe API (see info below) and generates a JSON file with a schedule. The schedule should outline at exactly what time light and water commands should be sent to the Tower, and what light intensity or amount to water should be.
+
+The dates in the schedule should be in UTC.
 
 ```typescript
 {

@@ -48,7 +48,7 @@ app.MapGet("/recipe", () =>
             new LightingPhaseOperation(30, 0, LightIntensity.Off),
         }
     });
-    recipe2.LightingPhases.Add(new LightingPhase("Phase 3", 0, 24, 0, 2)
+    recipe2.LightingPhases.Add(new LightingPhase("Phase 3", 2, 24, 0, 2)
     {
         Operations = new List<LightingPhaseOperation>
         {

@@ -1,7 +1,14 @@
 using IgsSoftwareTechTest;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapGet("/recipe", () =>
 {
@@ -55,9 +62,9 @@ app.MapGet("/recipe", () =>
     recipe2.WateringPhases.Add(
         new WateringPhase("Phase 2", 1, 24, 0, 6, 55));
     recipe2.WateringPhases.Add(
-        new WateringPhase("Phase 2", 3, 24, 0, 2, 30));
+        new WateringPhase("Phase 3", 3, 24, 0, 2, 30));
     recipe2.WateringPhases.Add(
-        new WateringPhase("Phase 2", 2, 12, 30, 4, 30));
+        new WateringPhase("Phase 4", 2, 12, 30, 4, 30));
 
     var recipes = new List<Recipe>
     {

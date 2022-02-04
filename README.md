@@ -36,7 +36,9 @@ A simple example would be a Phase that is 24 hours long and is repeated 7 times.
 Within each recipe there can be 1 or more phases. This is to optimise the amount of light and water a plant needs for optimal growth.
 
 ## Lighting Phase
-Each lighting phase contains 1 or more Operations.
+Each lighting phase contains 0 or more Operations.
+
+The Operations within each phase essentially mimic the rising and setting sun.
 
 Each Operation specifies an offset time for when it should be executed relative to the beginning of the phase. It also specifies the intensity.
 
@@ -48,9 +50,27 @@ Number | Intensity
 2      | Medium
 3      | High
 
-# Watering Phase
-Each watering phase contains 0 or more Operations.
 
-Each Operation specifies an offset
+
+## Watering Phase
+Watering Phases work in a similar way but instead of a set of Operations within each Phase, they just have the amount of litres to water on each repetition.
+
+# Recipes API
+Start the Recipes API by running the following command
+
+```
+docker-compose up
+```
+That should let you access it at `localhost:8080/swagger` or `localhost:8080/recipe`.
+
+Refer to the Swagger page for examples of the structure.
+
+# Requirements
+- Solution should be done using the latest version of C# & dotnet.
+- The solution should be accompanied by a README file containing your thought process, any shortcuts you've taken and why, assumptions that had to be made as well as how you would evolve your solution to make it ready for a production environment.
+
+# Bonus Points
+- Unit tests
+- Dockerised solution
 
 

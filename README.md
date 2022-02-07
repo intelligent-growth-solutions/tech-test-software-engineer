@@ -37,7 +37,7 @@ A simple example would be that Phase 1 has a cycle that is 24 hours long and is 
 
 Within each recipe there can be 1 or more phases. This is in order to balance the amount of light and water a plant needs for optimal growth within each stage of it's development.
 
-## Lighting Phase
+## Lighting Phases
 Each lighting phase contains 0 or more Operations.
 
 The Operations within each phase essentially mimic the rising and setting sun.
@@ -54,8 +54,8 @@ Number | Intensity
 
 
 
-## Watering Phase
-Watering Phases work in a similar way but instead of a set of Operations within each Phase, they just have the amount of litres to water on each repetition.
+## Watering Phases
+Watering Phases work in a similar way but instead of a set of Operations within each cycle, they just have a number of litres of water to deliver on each repetition.
 
 # Recipes API
 Start the Recipes API by running the following command
@@ -72,6 +72,7 @@ You shouldn't need to look at the implementation of the Recipe API but feel free
 # Requirements
 - Solution should be done using the latest version of C# & dotnet.
 - The solution should be accompanied by a README file containing your thought process, any shortcuts you've taken and why, assumptions that had to be made as well as how you would evolve your solution to make it ready for a production environment.
+- The solution should be delivered as a git repository with instructions for how to run it.
 
 # Bonus Points
 - Unit tests

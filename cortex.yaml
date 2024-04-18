@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: Software Engineer Tech Test
+  x-cortex-git:
+    github:
+      repository: intelligent-growth-solutions/tech-test-software-engineer
+  x-cortex-tag: software-engineer-tech-test
+  x-cortex-type: documentation
+  x-cortex-owners:
+  - name: intelligent-growth-solutions-user-apps
+    type: GROUP
+    provider: CORTEX

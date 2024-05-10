@@ -7,6 +7,6 @@ info:
   x-cortex-tag: software-engineer-tech-test
   x-cortex-type: documentation
   x-cortex-owners:
-  - name: intelligent-growth-solutions-user-apps
+  - name: intelligent-growth-solutions/user-apps
     type: GROUP
     provider: CORTEX

@@ -19,12 +19,12 @@ The dates in the schedule should be in UTC.
     {
       trayNumber: 2,
       recipeName: "Strawberries",
-      startDate: "2021-13-08T17:33:00.0000000Z"
+      startDate: "2021-11-08T17:33:00.0000000Z"
     },
     {
       trayNumber: 3,
       recipeName: "Basil",
-      startDate: "2030-01-01T23:45:00.0000000Z"
+      startDate: "2030-13-01T23:45:00.0000000Z"
     }
   ]
 }
